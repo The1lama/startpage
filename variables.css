@@ -1,0 +1,46 @@
+:root {
+  /** colors */
+  --color-name: custom;
+  --color-bg-shade: #181825;
+  --color-bg-base: #1E1E2E;
+  --color-bg-surface: #242437;
+  --color-bg-highlight: #2A2A40;
+  --color-fg-shade: #636880;
+  --color-fg-base: #74c7ec;
+  --color-fg-surface: #9FA3B5;
+  --color-fg-highlight: #BFC1CD;
+  --color-primary-bg: #6011BD;
+  --color-primary-base: #b4befe;
+  --color-primary-fg: #CBA6F7;
+  --color-secondary-bg: #BD1F91;
+  --color-secondary-base: #F5C2E7;
+  --color-secondary-fg: #CBA6F7;
+  --color-palette-red: #E06C75;
+  --color-palette-green: #98C379;
+  --color-palette-yellow: #E5C07B;
+  --color-palette-blue: #61AFEF;
+  --color-palette-purple: #C678DD;
+  --color-palette-cyan: #56B6C2;
+  --color-palette-orange: #FFBB7C;
+  
+  /** general */
+  --font-family: Roboto Mono ;
+  --font-size: 0.9;
+  --display-image: block;
+
+  /** surface */
+  --surface-maxWidth: 1070px;
+  --surface-shadow: 10px 10px 1px rgb(96, 17, 189), 20px 20px 1px rgb(107.625, 18.75, 183.5), 30px 30px 1px rgb(119.25, 20.5, 178), 40px 40px 1px rgb(130.875, 22.25, 172.5), 50px 50px 1px rgb(142.5, 24, 167), 60px 60px 1px rgb(154.125, 25.75, 161.5), 70px 70px 1px rgb(165.75, 27.5, 156), 80px 80px 1px rgb(177.375, 29.25, 150.5), 90px 90px 1px rgb(189, 31, 145);
+  --surface-borderRadius: 18px;
+
+  /** spacing */
+  --space-smallest: 0.125rem;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 1.5rem;
+  --space-largest: 3rem;
+
+  /** others */
+  --picture-size: 300px;
+  --group-count: 3;
+}
