@@ -1,0 +1,129 @@
+{
+  "yags-general": {
+    "img": "https://raw.githubusercontent.com/The1lama/startpage/refs/heads/main/img/cbg-3.gif",
+    "title": "どこへ行っても…また挨拶できれば、別れもいい。",
+    "displayImg": true,
+    "font": "Quicksand",
+    "enableFonts": false,
+    "fontSize": 1.1
+  },
+  "yags-search": {
+    "placeholder": "ウェブを検索",
+    "engine": "duckduckgo",
+    "forwardingLookup": {
+      "/": "/",
+      "deepl": "https://deepl.com/",
+      "reddit": "https://reddit.com/",
+      "maps": "https://maps.google.com/"
+    }
+  },
+  "yags-theme": {
+    "inverted": false,
+    "color": {
+      "name": "custom",
+      "bg": {
+        "shade": "#181825",
+        "base": "#1E1E2E",
+        "surface": "#242437",
+        "highlight": "#2A2A40"
+      },
+      "fg": {
+        "shade": "#CCCCCC",
+        "base": "#FFFFFF",
+        "surface": "#cdd6f4",
+        "highlight": "#FFFFFF"
+      },
+      "primary": {
+        "bg": "#30085F",
+        "base": "#6011BD",
+        "fg": "#9447EE"
+      },
+      "secondary": {
+        "bg": "#5F1048",
+        "base": "#BD1F91",
+        "fg": "#E664C2"
+      },
+      "palette": {
+        "red": "#E06C75",
+        "green": "#98C379",
+        "yellow": "#E5C07B",
+        "blue": "#61AFEF",
+        "purple": "#C678DD",
+        "cyan": "#56B6C2",
+        "orange": "#FFBB7C"
+      }
+    },
+    "space": {
+      "smallest": "0.125rem",
+      "small": "0.5rem",
+      "medium": "1rem",
+      "large": "1.5rem",
+      "largest": "3rem"
+    }
+  },
+  "yags-surface": {
+    "shadow": {
+      "amount": 11,
+      "blur": 1,
+      "offset": 6,
+      "shadow": "6px 6px 1px rgb(48, 8, 95), 12px 12px 1px rgb(52.7, 8.8, 92.7), 18px 18px 1px rgb(57.4, 9.6, 90.4), 24px 24px 1px rgb(62.1, 10.4, 88.1), 30px 30px 1px rgb(66.8, 11.2, 85.8), 36px 36px 1px rgb(71.5, 12, 83.5), 42px 42px 1px rgb(76.2, 12.8, 81.2), 48px 48px 1px rgb(80.9, 13.600000000000001, 78.9), 54px 54px 1px rgb(85.6, 14.4, 76.6), 60px 60px 1px rgb(90.30000000000001, 15.2, 74.3), 66px 66px 1px rgb(95, 16, 72)"
+    },
+    "borderRadius": 20,
+    "maxWidth": 1200
+  },
+  "yags-bookmarks": [
+    {
+      "id": "GryRgkafuq8Gg8ah",
+      "label": "Anime",
+      "bookmarks": [
+        {
+          "id": "6zWKEhBsC9DVmz5i",
+          "label": "9anime",
+          "url": "https://9animetv.to/"
+        },
+        {
+          "id": "PH6QnGSGaVcl9CVs",
+          "label": "MangadDex",
+          "url": "https://mangadex.org/"
+        },
+        {
+          "id": "bYghCX7F4ei5KcMG",
+          "label": "Anilist",
+          "url": "https://anilist.co/user/NoFloli/"
+        }
+      ]
+    },
+    {
+      "id": "6Tj0HnuKeeUDwGch",
+      "label": "Tools",
+      "bookmarks": [
+        {
+          "id": "KzLGd5feuqAfbmtb",
+          "label": "GlaDOS TTS",
+          "url": "https://www.nerdaxic.com/glados-voice-generator/"
+        },
+        {
+          "id": "Cocoltedo2DWD775",
+          "label": "Happy Hues",
+          "url": "https://www.happyhues.co/"
+        }
+      ]
+    },
+    {
+      "id": "DD8HV8MgjCaDEIEw",
+      "label": "Photos",
+      "bookmarks": [
+        {
+          "id": "uLiIuVruiOLjXVjp",
+          "label": "Inspiration",
+          "url": "https://designyoutrust.com/2019/05/the-chill-and-retro-motion-pixel-art-of-motocross-saito/"
+        },
+        {
+          "id": "7sh0DnV1bS1cAPTa",
+          "label": "UHDpaper",
+          "url": "https://www.uhdpaper.com/"
+        }
+      ]
+    }
+  ]
+}
