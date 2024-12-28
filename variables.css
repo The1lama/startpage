@@ -5,16 +5,16 @@
   --color-bg-base: #1E1E2E;
   --color-bg-surface: #242437;
   --color-bg-highlight: #2A2A40;
-  --color-fg-shade: #636880;
-  --color-fg-base: #74c7ec;
-  --color-fg-surface: #9FA3B5;
-  --color-fg-highlight: #BFC1CD;
-  --color-primary-bg: #6011BD;
-  --color-primary-base: #b4befe;
-  --color-primary-fg: #CBA6F7;
-  --color-secondary-bg: #BD1F91;
-  --color-secondary-base: #F5C2E7;
-  --color-secondary-fg: #CBA6F7;
+  --color-fg-shade: #CCCCCC;
+  --color-fg-base: #FFFFFF;
+  --color-fg-surface: #cdd6f4;
+  --color-fg-highlight: #FFFFFF;
+  --color-primary-bg: #30085F;
+  --color-primary-base: #6011BD;
+  --color-primary-fg: #9447EE;
+  --color-secondary-bg: #5F1048;
+  --color-secondary-base: #BD1F91;
+  --color-secondary-fg: #E664C2;
   --color-palette-red: #E06C75;
   --color-palette-green: #98C379;
   --color-palette-yellow: #E5C07B;
@@ -24,14 +24,14 @@
   --color-palette-orange: #FFBB7C;
   
   /** general */
-  --font-family: Roboto Mono ;
-  --font-size: 0.9;
+  --font-family: Quicksand;
+  --font-size: 1.1;
   --display-image: block;
 
   /** surface */
-  --surface-maxWidth: 1070px;
-  --surface-shadow: 10px 10px 1px rgb(96, 17, 189), 20px 20px 1px rgb(107.625, 18.75, 183.5), 30px 30px 1px rgb(119.25, 20.5, 178), 40px 40px 1px rgb(130.875, 22.25, 172.5), 50px 50px 1px rgb(142.5, 24, 167), 60px 60px 1px rgb(154.125, 25.75, 161.5), 70px 70px 1px rgb(165.75, 27.5, 156), 80px 80px 1px rgb(177.375, 29.25, 150.5), 90px 90px 1px rgb(189, 31, 145);
-  --surface-borderRadius: 18px;
+  --surface-maxWidth: 1200px;
+  --surface-shadow: 6px 6px 1px rgb(48, 8, 95), 12px 12px 1px rgb(52.7, 8.8, 92.7), 18px 18px 1px rgb(57.4, 9.6, 90.4), 24px 24px 1px rgb(62.1, 10.4, 88.1), 30px 30px 1px rgb(66.8, 11.2, 85.8), 36px 36px 1px rgb(71.5, 12, 83.5), 42px 42px 1px rgb(76.2, 12.8, 81.2), 48px 48px 1px rgb(80.9, 13.600000000000001, 78.9), 54px 54px 1px rgb(85.6, 14.4, 76.6), 60px 60px 1px rgb(90.30000000000001, 15.2, 74.3), 66px 66px 1px rgb(95, 16, 72);
+  --surface-borderRadius: 20px;
 
   /** spacing */
   --space-smallest: 0.125rem;

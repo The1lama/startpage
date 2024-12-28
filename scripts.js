@@ -8,7 +8,7 @@
 const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
-const lookup = {}
+const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
 const engine = "duckduckgo"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/{query}",
@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"3zS05Y3WBGYmp4yl","label":"Anime","bookmarks":[{"id":"DafMn5kXuh3F3TmX","label":"9anime","url":"https://9animetv.to/"},{"id":"etWWZbH7W9x0q8hP","label":"MangaDex","url":"https://mangadex.org/"},{"id":"3eZmJKwXIbe1wMQl","label":"Anilist","url":"anilist.co/user/NoFloli/"},{"id":"dfuHLF1owHKwPcXv","label":"‎ ","url":""}]},{"id":"xZLIcKfjVMg31Qyq","label":"Tools","bookmarks":[{"id":"zLAkgSosAVJ9DtHE","label":"","url":"https://www.happyhues.co/"},{"id":"YxijCFx94zaJss08","label":"GlaDOS","url":"https://www.nerdaxic.com/glados-voice-generator/"},{"id":"YORUjddhec6Un72W","label":"Happy Hues","url":"https://www.happyhues.co/"},{"id":"j2dvPLbuD6ZsVEnc","label":"‎ ","url":""}]},{"id":"UL3OpHpMiZGiyWJH","label":"Photos","bookmarks":[{"id":"cbIYMTt70dWK0duI","label":"Inspiration","url":"https://designyoutrust.com/2019/05/the-chill-and-retro-motion-pixel-art-of-motocross-saito/"},{"id":"NJWHz4Qz0wVUofiH","label":"‎ ","url":""}]}]
+const bookmarks = [{"id":"GryRgkafuq8Gg8ah","label":"Anime","bookmarks":[{"id":"6zWKEhBsC9DVmz5i","label":"9anime","url":"https://9animetv.to/"},{"id":"PH6QnGSGaVcl9CVs","label":"MangadDex","url":"https://mangadex.org/"},{"id":"bYghCX7F4ei5KcMG","label":"Anilist","url":"https://anilist.co/user/NoFloli/"}]},{"id":"6Tj0HnuKeeUDwGch","label":"Tools","bookmarks":[{"id":"KzLGd5feuqAfbmtb","label":"GlaDOS TTS","url":"https://www.nerdaxic.com/glados-voice-generator/"},{"id":"Cocoltedo2DWD775","label":"Happy Hues","url":"https://www.happyhues.co/"}]},{"id":"DD8HV8MgjCaDEIEw","label":"Photos","bookmarks":[{"id":"uLiIuVruiOLjXVjp","label":"Inspiration","url":"https://designyoutrust.com/2019/05/the-chill-and-retro-motion-pixel-art-of-motocross-saito/"},{"id":"7sh0DnV1bS1cAPTa","label":"UHDpaper","url":"https://www.uhdpaper.com/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
