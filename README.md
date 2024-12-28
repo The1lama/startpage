@@ -3,9 +3,8 @@ A startpage for my webbrowser
 
 
 ## Sources
-Colorscheme:
+**Colorscheme:**
 https://github.com/catppuccin/catppuccin
 
-## Startpage search
-https://starttabs.com/
+**Startpage search:**
 https://github.com/PrettyCoffee/yet-another-generic-startpage?tab=readme-ov-file
